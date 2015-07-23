@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var titleField: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -19,6 +19,8 @@ class AddViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         titleField.becomeFirstResponder()
+        
+        titleField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,8 +34,6 @@ class AddViewController: UIViewController {
             self.navigationController?.popViewControllerAnimated(true)
         }
     }
-    
-    
     
     
     func addGoal(title : String, text : String, date : NSDate){
@@ -54,6 +54,11 @@ class AddViewController: UIViewController {
         if !managedContext.save(&error) {
             println("Could not save \(error), \(error?.userInfo)")
         }
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        titleField.resignFirstResponder()
+        return false
     }
 }
 

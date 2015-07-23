@@ -16,6 +16,7 @@
 		F01783281B5E77C400D3A34D /* Goals_for_tomorrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01783271B5E77C400D3A34D /* Goals_for_tomorrowTests.swift */; };
 		F01783341B5E785700D3A34D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F01783321B5E785700D3A34D /* Model.xcdatamodeld */; };
 		F01783361B5E7B5800D3A34D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01783351B5E7B5800D3A34D /* CoreData.framework */; };
+		F06456541B60ED0B001999C9 /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F06456531B60ED0B001999C9 /* Icon1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F01783271B5E77C400D3A34D /* Goals_for_tomorrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals_for_tomorrowTests.swift; sourceTree = "<group>"; };
 		F01783331B5E785700D3A34D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F01783351B5E7B5800D3A34D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F06456531B60ED0B001999C9 /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				F01783151B5E77C400D3A34D /* Main.storyboard */,
 				F01783181B5E77C400D3A34D /* Images.xcassets */,
 				F017831A1B5E77C400D3A34D /* LaunchScreen.xib */,
+				F06456531B60ED0B001999C9 /* Icon1024.png */,
 				F017830D1B5E77C400D3A34D /* Supporting Files */,
 			);
 			path = "Goals for tomorrow";
@@ -213,6 +216,7 @@
 				F01783171B5E77C400D3A34D /* Main.storyboard in Resources */,
 				F017831C1B5E77C400D3A34D /* LaunchScreen.xib in Resources */,
 				F01783191B5E77C400D3A34D /* Images.xcassets in Resources */,
+				F06456541B60ED0B001999C9 /* Icon1024.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -56,7 +56,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egd-Hw-jSc">
                                 <rect key="frame" x="16" y="8" width="343" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="t8A-wy-i3D">
                                 <rect key="frame" x="16" y="46" width="343" height="162"/>
@@ -84,6 +84,7 @@
                             <constraint firstItem="t8A-wy-i3D" firstAttribute="trailing" secondItem="QGI-4G-IJf" secondAttribute="trailingMargin" id="dwa-PG-62R"/>
                             <constraint firstItem="t8A-wy-i3D" firstAttribute="leading" secondItem="QGI-4G-IJf" secondAttribute="leadingMargin" id="rim-Sd-SMM"/>
                             <constraint firstItem="egd-Hw-jSc" firstAttribute="top" secondItem="ixE-oI-n5L" secondAttribute="bottom" constant="8" id="tRt-Zx-7HY"/>
+                            <constraint firstItem="Ejm-EW-LNg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ads-mj-3KN" secondAttribute="bottom" constant="8" id="uUm-nK-NHa"/>
                             <constraint firstItem="egd-Hw-jSc" firstAttribute="trailing" secondItem="QGI-4G-IJf" secondAttribute="trailingMargin" id="xff-5Z-zET"/>
                             <constraint firstItem="t8A-wy-i3D" firstAttribute="width" secondItem="egd-Hw-jSc" secondAttribute="width" id="yEW-p1-YSA"/>
                         </constraints>
